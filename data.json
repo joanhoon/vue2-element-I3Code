@@ -1,0 +1,354 @@
+{
+  "columns": [
+    {
+      "text": "插件名称",
+      "dataIndex": "pluginName",
+      "width": "200"
+    },
+    {
+      "text": "模块",
+      "dataIndex": "module",
+      "width": "60"
+    },
+    {
+      "text": "地址",
+      "dataIndex": "site",
+      "width": "150"
+    },
+        {
+      "text": "描述",
+      "dataIndex": "describe",
+      "width": "80"
+    },
+    {
+      "text": "菜单图标",
+      "dataIndex": "menuIcon",
+      "width": "80"
+    },
+    {
+      "text": "状态",
+      "dataIndex": "status",
+      "width": "60"
+    },
+    {
+      "text": "创建人",
+      "dataIndex": "creatorName",
+      "width": "80"
+    },
+    {
+      "text": "创建时间",
+      "dataIndex": "createTime",
+      "width": "80"
+    },
+    {
+      "text": "更新人",
+      "dataIndex": "modifierName",
+      "width": "80"
+    },
+    {
+      "text": "更新时间",
+      "dataIndex": "modifyTime",
+      "width": "80"
+    }
+  ],
+  "dataSource": [
+    {
+      "id": "10001",
+      "pluginName": "平台管理",
+      "module": "否",
+      "site": "a",
+      "menuIcon": "a",
+      "describe": "a",
+      "status": "启用",
+      "creatorName": "a",
+      "createTime": "a",
+      "modifierName": "a",
+      "modifyTime": "a",
+      "children": [
+        {
+          "id": "11001",
+          "pluginName": "任务管理",
+          "module": "是",
+          "site": "a",
+          "menuIcon": "a",
+          "describe": "a",
+          "status": "启用",
+          "creatorName": "a",
+          "createTime": "a",
+          "modifierName": "a",
+          "modifyTime": "a",
+          "children": [
+            {
+              "id": "11101",
+              "pluginName": "任务执行情况控制器",
+              "module": "否",
+              "site": "a",
+              "menuIcon": "a",
+              "describe": "a",
+              "status": "启用",
+              "creatorName": "a",
+              "createTime": "a",
+              "modifierName": "a",
+              "modifyTime": "a"
+            },
+            {
+              "id": "11102",
+              "pluginName": "任务管理控制器",
+              "module": "否",
+              "site": "a",
+              "menuIcon": "a",
+              "describe": "a",
+              "status": "启用",
+              "creatorName": "a",
+              "createTime": "a",
+              "modifierName": "a",
+              "modifyTime": "a"
+            },
+            {
+              "id": "11103",
+              "pluginName": "表达式模板控制器",
+              "module": "否",
+              "site": "a",
+              "menuIcon": "a",
+              "describe": "a",
+              "status": "启用",
+              "creatorName": "a",
+              "createTime": "a",
+              "modifierName": "a",
+              "modifyTime": "a"
+            }
+          ]
+        },
+        {
+          "id": "11002",
+          "pluginName": "插件管理",
+          "module": "是",
+          "site": "a",
+          "menuIcon": "a",
+          "describe": "a",
+          "status": "启用",
+          "creatorName": "a",
+          "createTime": "a",
+          "modifierName": "a",
+          "modifyTime": "a",
+          "children": [
+            {
+              "id": "11201",
+              "pluginName": "插件管理",
+              "module": "是",
+              "site": "a",
+              "menuIcon": "a",
+              "describe": "a",
+              "status": "启用",
+              "creatorName": "a",
+              "createTime": "a",
+              "modifierName": "a",
+              "modifyTime": "a"
+            },
+            {
+              "id": "11202",
+              "pluginName": "用户权限管理",
+              "module": "是",
+              "site": "a",
+              "menuIcon": "a",
+              "describe": "a",
+              "status": "启用",
+              "creatorName": "a",
+              "createTime": "a",
+              "modifierName": "a",
+              "modifyTime": "a"
+            }
+          ]
+        },
+        {
+          "id": "11003",
+          "pluginName": "日志管理",
+          "module": "是",
+          "site": "a",
+          "menuIcon": "a",
+          "describe": "a",
+          "status": "启用",
+          "creatorName": "a",
+          "createTime": "a",
+          "modifierName": "a",
+          "modifyTime": "a",
+          "children": [
+            {
+              "id": "11301",
+              "pluginName": "日志管理",
+              "module": "是",
+              "site": "a",
+              "menuIcon": "a",
+              "describe": "a",
+              "status": "启用",
+              "creatorName": "a",
+              "createTime": "a",
+              "modifierName": "a",
+              "modifyTime": "a"
+            },
+            {
+              "id": "11302",
+              "pluginName": "日志配置文件",
+              "module": "是",
+              "site": "a",
+              "menuIcon": "a",
+              "describe": "a",
+              "status": "启用",
+              "creatorName": "a",
+              "createTime": "a",
+              "modifierName": "a",
+              "modifyTime": "a"
+            }
+          ]
+        },
+        {
+          "id": "11004",
+          "pluginName": "消息队列管理",
+          "module": "是",
+          "site": "a",
+          "menuIcon": "a",
+          "describe": "a",
+          "status": "启用",
+          "creatorName": "a",
+          "createTime": "a",
+          "modifierName": "a",
+          "modifyTime": "a",
+          "children": [
+            {
+              "id": "11401",
+              "pluginName": "交换机管理",
+              "module": "否",
+              "site": "a",
+              "menuIcon": "a",
+              "describe": "a",
+              "status": "启用",
+              "creatorName": "a",
+              "createTime": "a",
+              "modifierName": "a",
+              "modifyTime": "a"
+            },
+            {
+              "id": "11402",
+              "pluginName": "消息服务管理",
+              "module": "否",
+              "site": "a",
+              "menuIcon": "a",
+              "describe": "a",
+              "status": "启用",
+              "creatorName": "a",
+              "createTime": "a",
+              "modifierName": "a",
+              "modifyTime": "a"
+            },
+            {
+              "id": "11403",
+              "pluginName": "虚拟机管理",
+              "module": "否",
+              "site": "a",
+              "menuIcon": "a",
+              "describe": "a",
+              "status": "启用",
+              "creatorName": "a",
+              "createTime": "a",
+              "modifierName": "a",
+              "modifyTime": "a"
+            },
+            {
+              "id": "11404",
+              "pluginName": "队列管理",
+              "module": "否",
+              "site": "a",
+              "menuIcon": "a",
+              "describe": "a",
+              "status": "启用",
+              "creatorName": "a",
+              "createTime": "a",
+              "modifierName": "a",
+              "modifyTime": "a"
+            }
+          ]
+        },
+        {
+          "id": "11005",
+          "pluginName": "用户管理",
+          "module": "是",
+          "site": "a",
+          "menuIcon": "a",
+          "describe": "a",
+          "status": "启用",
+          "creatorName": "a",
+          "createTime": "a",
+          "modifierName": "a",
+          "modifyTime": "a",
+          "children": [
+            {
+              "id": "11501",
+              "pluginName": "仓库管理",
+              "module": "否",
+              "site": "a",
+              "menuIcon": "a",
+              "describe": "a",
+              "status": "启用",
+              "creatorName": "a",
+              "createTime": "a",
+              "modifierName": "a",
+              "modifyTime": "a"
+            },
+            {
+              "id": "11502",
+              "pluginName": "企业拓扑图",
+              "module": "否",
+              "site": "a",
+              "menuIcon": "a",
+              "describe": "a",
+              "status": "启用",
+              "creatorName": "a",
+              "createTime": "a",
+              "modifierName": "a",
+              "modifyTime": "a"
+            },
+            {
+              "id": "11503",
+              "pluginName": "工厂管理",
+              "module": "否",
+              "site": "a",
+              "menuIcon": "a",
+              "describe": "a",
+              "status": "启用",
+              "creatorName": "a",
+              "createTime": "a",
+              "modifierName": "a",
+              "modifyTime": "a"
+            },
+            {
+              "id": "11504",
+              "pluginName": "用户管理",
+              "module": "否",
+              "site": "a",
+              "menuIcon": "a",
+              "describe": "a",
+              "status": "启用",
+              "creatorName": "a",
+              "createTime": "a",
+              "modifierName": "a",
+              "modifyTime": "a"
+            },
+            {
+              "id": "11604",
+              "pluginName": "角色管理",
+              "module": "否",
+              "site": "a",
+              "menuIcon": "a",
+              "describe": "a",
+              "status": "启用",
+              "creatorName": "a",
+              "createTime": "a",
+              "modifierName": "a",
+              "modifyTime": "a"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

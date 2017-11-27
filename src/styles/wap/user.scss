@@ -1,0 +1,145 @@
+
+
+
+// //工具条按钮
+// .el-button+.el-button{
+//   margin-left:0;
+// }
+// .el-table .cell, .el-table th>div{
+//   padding: 0;
+// }
+
+// // 表格
+// #dataTab{
+//   height: 274px;
+// }
+// .el-table td, .el-table th {
+//   height: 30px;
+//   .el-button--small{
+//     padding: 3px 5px;
+//   }
+// }
+
+// //分页
+// .pagination-container {
+//   margin-top: 7px;
+//   .el-pagination {
+//     padding: 0;
+//     .el-pagination__total{
+//       margin: 0 5px;
+//     }
+//     span,button,li,input{
+//       font-size: 12px !important;
+//       min-width: 24px !important;
+//       height: 24px !important;
+//       line-height: 24px !important;
+//     }
+//     .el-pagination__editor{
+//       width: 24px;
+//       padding: 0;
+//     }
+//     .el-input{
+//       width: 90px;
+//     }
+//   }
+// }
+// // 列隐藏
+// .show-column{
+//   display: inline-block;
+//   margin:0 0 10px;
+//   position: relative;
+//   div.show-column-box{
+//     width: 268px;
+//     position: absolute;
+//     left: 0;
+//     top: 35px;
+//     z-index: 998;
+//     background: #fff;
+//     border: 1px solid #ccc;
+//     float: left;
+//     border-radius: 5px;
+//     box-shadow: 0 0 20px #ccc;
+//     ul{
+//       float: left;
+//       list-style: none;
+//       padding: 0 20px;
+//     }
+//   }
+// }
+
+// .el-popover[x-placement^=bottom] .popper__arrow{
+//   border-bottom-color:transparent;
+// }
+// div.el-popover{
+//   // position: absolute;
+//   // z-index:998;
+//   // background:#fff;
+//   width: 150px;
+//   height: 200px;
+//   padding: 0;
+//   // border: 1px solid;
+//   // border-radius: 5px;
+//   // box-shadow: 0 0 20px #ccc;
+//   >div{
+//     float: left;
+//     padding:5px;
+//   }
+//   >div.filter-item{
+    
+//     width: 80%;
+//     input{
+//       font-size: 12px;
+//       height: 24px;
+//     }
+//   }
+//   >div.el-dropdown{
+//     position:absolute;
+//     top: 5px;
+//     right: 5px;
+//   }
+//   button{
+//     position: absolute !important;
+//     bottom: 5px;
+//     right: 15px;
+//     font-size: 12px;
+//     padding: 5px;
+//   }
+//   button:nth-of-type(1){
+//     left: 15px;
+    
+    
+//   }
+// }
+// //过滤筛选
+// .row-filter{
+//   margin:10px 0;
+// }
+// .filter-button{
+//   float:right;
+//   button{
+//     margin-top:10px;
+//   }
+// }
+// .deleteButton{
+//   margin-left: 6px;
+// }
+
+
+
+// //清除浮动
+// .clearfix::after,
+// .clearfix::before {
+//   content: "";
+//   clear: both;
+//   display: block;
+//   overflow: hidden;
+//   font-size: 0;
+//   height: 0;
+// }
+// .clearfix {
+//   zoom: 1;
+// }
+//移除滚动条
+::-webkit-scrollbar {    
+  width: 0px;
+}

@@ -1,0 +1,117 @@
+//工具条按钮
+.tool-container {
+    .el-button {
+        padding: 8px 10px;
+    }
+}
+
+
+
+// 列隐藏
+.el-dialog__body::after,
+.el-dialog__body::before {
+    content: "";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    height: 0;
+}
+
+.el-dialog__body {
+    ul {
+        float: left;
+        list-style: none;
+        padding: 0;
+        li {
+            float: left;
+            width: 110px;
+            padding: 3px 0px;
+            margin: 0 10px;
+        }
+    }
+}
+
+.el-popover[x-placement^=bottom] .popper__arrow {
+    border-bottom-color: transparent;
+}
+
+div.el-popover {
+    width: 150px;
+    height: 200px;
+    padding: 0; 
+    >div {
+        float: left;
+        padding: 5px;
+    }
+    >div.filter-item {
+        width: 80%;
+        input {
+            font-size: 12px;
+            height: 24px;
+        }
+    }
+    >div.el-dropdown {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+    button {
+        position: absolute !important;
+        bottom: 5px;
+        right: 15px;
+        font-size: 12px;
+        padding: 5px;
+    }
+    button:nth-of-type(1) {
+        left: 15px;
+    }
+}
+
+//过滤筛选
+.row-filter {
+    margin: 10px 0;
+}
+
+.filter-button {
+    float: right;
+    button {
+        margin-top: 10px;
+    }
+}
+
+.deleteButton {
+    margin-left: 6px;
+}
+
+//分页
+.pagination-container {
+    margin-top: 20px;
+}
+
+//清除浮动
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    height: 0;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.mr180 {
+    margin-right: 180px;
+}

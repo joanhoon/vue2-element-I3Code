@@ -1,0 +1,102 @@
+@import './user.scss';
+body,div,span,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,::before,::after {
+  font-size: 12px;
+}
+
+.app-container{
+  padding:10px;
+}
+//顶部任务栏
+.main-container {
+  .navbar[data-v-661c36ec] {
+    height: 40px;
+    line-height: 40px;
+  }
+  .app-levelbar.el-breadcrumb[data-v-6041f72a] {
+    line-height: 40px;
+  }
+  .navbar .screenfull[data-v-661c36ec] {
+    top: 10px;
+  }
+  .navbar .avatar-container .avatar-wrapper .user-avatar[data-v-661c36ec] {
+    width: 30px;
+    height: 30px;
+  }
+}
+//工具条
+.toolbar {
+  overflow: auto;
+  margin-right: 150px;
+  .tool-container {
+    width: 770px;
+    .filter-item {
+      margin-bottom: 0px;
+    }
+    .el-button {
+      padding: 5px;
+    }
+    //搜索
+    .filter-input {
+      position: absolute;
+      top: 45px;
+      right: 10px;
+      width: 140px;
+      input{
+        height: 25px;
+      }
+    }
+  }
+}
+// 表格
+#dataTab{
+  height: 274px;
+}
+.el-table td, .el-table th {
+  height: 25px;
+  .el-button--small{
+    padding: 3px 5px;
+  }
+}
+//分页
+.pagination-container {
+  margin-top: 7px;
+  .el-pagination {
+    padding: 0;
+    .el-pagination__total{
+      margin: 0 5px;
+    }
+    span,button,li,input{
+      font-size: 12px !important;
+      min-width: 24px !important;
+      height: 24px !important;
+      line-height: 24px !important;
+    }
+    .el-pagination__editor{
+      width: 24px;
+      padding: 0;
+    }
+    .el-input{
+      width: 90px;
+    }
+  }
+}
+.el-dialog__body{
+  span{
+    line-height: 25px;
+  }
+  .el-input{
+    margin-bottom:5px;
+    input{
+      height: 25px;
+    }
+  }
+}
+.el-input{
+  font-size: 12px;
+}
+.el-form-item{
+  margin-bottom: 0;
+}
+.el-dialog--tiny {
+  width: 80%;
+}
